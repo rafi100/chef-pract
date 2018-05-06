@@ -12,6 +12,6 @@ service 'httpd' do
 	action [:enable, :start]
 end
 
-file '/opt/shell.sh' do
+file '/opt/shell2.sh' do
 	action :create
 end
